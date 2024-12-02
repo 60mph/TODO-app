@@ -1,0 +1,110 @@
+body
+{
+  background-color: #FFFFCC;
+}
+header {
+  min-width: 700px;
+  background-color: #993300;
+  padding: 30px;
+}
+.head_div
+{
+  display: block;
+}
+.logo_img
+{
+  width: auto;
+  height: 100px;
+}
+.heading
+{
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-right: 20%;
+  color: white;
+}
+.new_task_button
+{
+  /*background-color: white;*/
+  text-align: center;
+  font-size: 30px;
+  height: 110px;
+  width: 110px;
+  margin-left: 10px;
+  border: 0;
+  background-color: #CCCC99;
+  color: #333333;
+  font-family: sans-serif;
+}
+.new_task_button:hover
+{
+  color: white;
+  background-color: #669966;
+}
+.new_task_section
+{
+  padding: 10px;
+  min-width: 740px;
+  height: 110px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #336633;
+  display: block;
+}
+.description
+{
+  min-width: 740px;
+  text-align: center;
+  width: 600px;
+  height: 110px;
+  margin-left: 10px;
+  border: 0;
+  display: inline;
+}
+.descriptiontxt
+{
+  font-size: 30px;
+  text-align: center;
+  width: 600px;
+  height: 108px;
+  margin-left: 0;
+  border: 0;
+  background-color: #CCCC99;
+}
+.description:focus
+{
+  border: 0;
+}
+.tasks_li
+{
+  font-size: 30px;
+  list-style-type: none;
+  height: 40px;
+  width: auto;
+  margin-right: 0px;
+  background-color: #CC9966;
+  margin-top: 10px;
+}
+.liDescr
+{
+  display: inline-block;
+  margin-top: -10px;
+  font-family: fantasy;
+  margin-left: 30px;
+}
+.radioBut
+{
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+}
+.radioBut:checked
+{
+  background: url("img/radio_checked.png") 0 0 no-repeat;
+}
+.radioBut:hover
+{
+  border: 4px solid #dddddd;
+}
